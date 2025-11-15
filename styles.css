@@ -4,7 +4,7 @@ body{
 }
 
 
-.torus{
+.background{
     background:
         radial-gradient(
             circle at 20% 0%,
@@ -20,5 +20,20 @@ body{
         ),
         linear-gradient(to bottom, rgb(6, 9, 43));
        
+    height: 100vh;
+}
+
+.mesh{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    width: 50vw;
+    height: 50vh;
+    position: fixed;
+}
+
+
+.other{
     height: 100vh;
 }
